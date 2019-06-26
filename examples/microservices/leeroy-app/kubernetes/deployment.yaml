@@ -31,5 +31,6 @@ spec:
       containers:
       - name: leeroy-app
         image: gcr.io/k8s-skaffold/leeroy-app
+        imagePullPolicy: Always
         ports:
         - containerPort: 50051
